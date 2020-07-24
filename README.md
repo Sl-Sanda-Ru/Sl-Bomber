@@ -1,19 +1,10 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS bomber for Linux And Termux.</p><br>
+<p align="center">SMS bomber For Termux.</p><br>
 
 ## Note:
 - The script requires working network connection to work.
-- No balance will be deducted for using this script to send SMS/calls.
-- While doing infinite bombing use 2-3 seconds delay and 10 to 20 threads for maximum performance.
-- Don't put spaces in between phone number (Ex- 99999 99999)
-- Make sure you are using the latest version of TBomb
+- No balance will be deducted for using this script to send SMS.
 - Make sure you are using Python3.
-
-Here's how you can check it. Type this command in your terminal.
-```
-$ python -V
-```
-If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 
 - Do not use this to harm others.
 - This script is only for educational purposes or to prank.
@@ -21,12 +12,10 @@ If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 <br>
 
 ## OS Support
-Supported OS:
+Tested OS:
 
 Termux App for Android
-Linux (Alpine Linux x64)
-macOS
-Windows WSL
+
 ## Usage:
 
 Run these commands to run TBomb
