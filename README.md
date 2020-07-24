@@ -16,3 +16,6 @@
 <li>Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The Os</li>
 </ul>
 # Usage
+<textarea name="text" cols="25" rows="5">
+Add multiple lines of text here and watch the scrollbars grow...
+</textarea>
