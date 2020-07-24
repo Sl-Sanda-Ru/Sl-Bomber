@@ -24,7 +24,7 @@ Run These Commands To Run Sl Bomber
 
 **Notice:** 
 
-To use the bomber type the following commands in Termux:
+To Use the bomber type the following commands in Termux:
 ```
 pkg install git
 pkg install python
