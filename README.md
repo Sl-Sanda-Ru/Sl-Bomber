@@ -16,6 +16,4 @@
 <li>Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The Os</li>
 </ul>
 <h1>Usage</h1>
-apt install python git
-git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
-cd SL-Bomber
+<p>apt install python git<br>git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git<br>cd SL-Bomber</p>
