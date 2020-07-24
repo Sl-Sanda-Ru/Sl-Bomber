@@ -8,7 +8,7 @@
 <li>The Script Doesn't Support International Bombing</li> 
 <li>Do Not Use This To Harm Others</li>
 <li>This Script Is Only For Educational Purposes Or To Prank.</li>
-<li><b>None Of The Developers Are Responsible For The Misuse Of SL-Bomber</b></li>
+<li><b>Developer Is Not Responsible For The Misuse Of SL-Bomber</b></li>
 </ul>
 <h1>OS Support</h1>
 <ul>
@@ -16,4 +16,4 @@
 <li>Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The Os</li>
 </ul>
 <h1>Usage</h1>
-<p>apt install python git<br>git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git<br>cd SL-Bomber</p>
+<p>apt install python git<br>git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git<br>cd Sl-Bomber<br>pip install -r requirements.txt<br>python slbomber.py</p>
