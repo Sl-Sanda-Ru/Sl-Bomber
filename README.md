@@ -5,20 +5,20 @@
 - The script requires working network connection to work.
 - No balance will be deducted for using this script to send SMS.
 - Make sure you are using Python3.
-
 - Do not use this to harm others.
 - This script is only for educational purposes or to prank.
-- **None of the developers/contributors are responsible for the misuse of TBomb.**
+- **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
 <br>
 
 ## OS Support
 Tested OS:
-
 Termux App for Android
+Supported OS:
+Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The OS
 
 ## Usage:
 
-Run these commands to run TBomb
+Run These Commands To Run Sl Bomber
 
 ### > For Termux:
 
