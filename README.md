@@ -5,9 +5,9 @@
 <li>The script requires working network connection to work.</li>
 <li>No balance will be deducted for using this script to send SMS.</li>
 <li>Make sure you are using the latest version of Python3</li>
-<li>The Script Doesn't Support International Bombing</li> 
-<li>Do Not Use This To Harm Others</li>
-<li>This Script Is Only For Educational Purposes Or To Prank.</li>
+<li><b>The Script Doesn't Support International Bombing</b></li> 
+<li><b>Do Not Use This To Harm Others</b></li>
+<li><b>This Script Is Only For Educational Purposes Or To Prank.</b></li>
 <li><b>Developer Is Not Responsible For The Misuse Of SL-Bomber</b></li>
 </ul>
 <h1>OS Support</h1>
