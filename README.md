@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS bomber For Termux.</p><br>
+<p align="center">SMS bomber For Sri Lankan Numbers.</p><br>
 
 ## Note:
 - The script requires working network connection to work.
@@ -11,9 +11,9 @@
 <br>
 
 ## OS Support
-Tested OS:
+**Tested OS:**
 Termux App for Android
-Supported OS:
+**Supported OS:**
 Since It's A Python Script You Can Run It In Other Platforms Too. But It Has To Be Edited For Suit The OS
 
 ## Usage:
@@ -30,6 +30,5 @@ pkg install git
 pkg install python
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
-chmod +x TBomb.sh
-./TBomb.sh
+python3 slbomber.py
 ```
