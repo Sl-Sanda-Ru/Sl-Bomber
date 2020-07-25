@@ -32,4 +32,4 @@ git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 python3 slbomber.py
 ```
-**If You Know More Websites And Apps That Use SMS Verification Please Inform Me**
+**If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me**
