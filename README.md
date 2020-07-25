@@ -26,10 +26,11 @@ Run These Commands To Run Sl Bomber
 
 To Use the bomber type the following commands in Termux:
 ```
-pkg install git
-pkg install python
+apt update && apt upgeade -y
+apt install git python
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
+pip install -r requirements.txt
 python3 slbomber.py
 ```
 **If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me**
