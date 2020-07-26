@@ -27,7 +27,7 @@ Run These Commands To Run Sl Bomber
 To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
-apt install git python -y
+apt install git python3 -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 pip install -r requirements.txt
