@@ -300,7 +300,7 @@ if cho==1:
 				guru(num,delay)
 				count+=1
 				prsent(count,num)
-				slmat(num,count)
+				slmat(num,delay)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -412,7 +412,7 @@ if cho==1:
 				flipkrt(num,delay)
 				count+=1
 				prsent(count,num)
-				slmat(num,count)
+				slmat(num,delay)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -506,7 +506,7 @@ if cho==1:
 				guru(num,delay)
 				count+=1
 				prsent(count,num)
-				slmat(num,count)
+				slmat(num,delay)
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
@@ -616,7 +616,7 @@ if cho==1:
 				oyoroom(num,delay)
 				count+=1
 				prsent(count,num)
-				slmat(num,count)
+				slmat(num,delay)
 				count+=1
 				prsent(count,num)
 				nanasa(num,delay)
