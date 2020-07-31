@@ -30,7 +30,7 @@ apt update && apt upgrade -y
 apt install git python3 -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 slbomber.py
 ```
 **If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me**
