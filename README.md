@@ -2,6 +2,7 @@
 <p align="center">SMS bomber For Sri Lankan Numbers.</p><br>
 
 ## Note:
+- **The Bomber Only Works For Sri Lankan Numbers**
 - The Script requires working network connection to work.
 - No Balance Will Be Deducted For Using This Script To Send SMS.
 - Make Sure You Are Using Python3.
