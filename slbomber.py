@@ -24,6 +24,7 @@ except ModuleNotFoundError:
 	print(bar+'\n')
 	print(logo)
 	print(bar+'\n')
+	print(f'\x1b[1m\t\t\x1b[92m1.Start SL Bomber\n\t\t\x1b[93m2.About\n\t\t\x1b[91m3.Exit')
 init(autoreset=True)
 def prsent(count,num):
 	sys.stdout.write('\r' +random.choice(fore) +Style.BRIGHT+'\t[*]'+' Bombing '+str(num)+'\t'+str(count)+' Sent')
