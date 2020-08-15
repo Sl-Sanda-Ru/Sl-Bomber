@@ -261,7 +261,7 @@ if cho==1:
 	print(logo)
 	print(bar+'\n')
 	time.sleep(0.5)
-	print(f'\t{Style.BRIGHT}Use This For Fun, Not For Revenge !!\n\tSL Bomber Created By Sandaru Ashen\n\t      http://wa.me/16825007668')
+	print(f'\t{Style.BRIGHT}Use This For Fun, Not For Revenge !!\n\tSL Bomber Created By Sandaru Ashen\n\t     http://wa.me/16825007668')
 	print(bar+'\n')
 	print(Fore.YELLOW+Style.BRIGHT+'\tPress Ctrl+c To Terminate The Bombing')
 	if num[0:3] == '077' or num[0:3] == '076':
