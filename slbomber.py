@@ -792,4 +792,4 @@ elif cho == 2:
 	input(f'{Style.BRIGHT}{random.choice(fore)}\t[+] Press ENTER To Go Back To Main Menu')
 	os.system('python3 slbomber.py')
 else:
-	exit().
+	exit()
