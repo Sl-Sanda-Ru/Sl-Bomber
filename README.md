@@ -7,7 +7,7 @@
 - No Balance Will Be Deducted For Using This Script To Send SMS.
 - Make Sure You Are Using Python3.
 - Do Not Use This To Harm Others.
-- This script is Only for Educational Purposes or to prank.
+- This Script Is Only For Educational Purposes or to prank.
 - **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
 <br>
 
