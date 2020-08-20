@@ -1,4 +1,4 @@
-#Script By Sandaru Ashen https://wa.me/16825007668
+#Script By Sandaru Ashen https://t.me/squad_sandaru
 import os,random,time,sys
 from urllib import request
 os.system('clear')
@@ -261,7 +261,7 @@ if cho==1:
 	print(logo)
 	print(bar+'\n')
 	time.sleep(0.5)
-	print(f'\t{Style.BRIGHT}Use This For Fun, Not For Revenge !!\n\tSL Bomber Created By Sandaru Ashen\n\t     http://wa.me/16825007668')
+	print(f'\t{Style.BRIGHT}Use This For Fun, Not For Revenge !!\n\tSL Bomber Created By Sandaru Ashen\n\t     https://t.me/squad_sandaru')
 	print(bar+'\n')
 	print(Fore.YELLOW+Style.BRIGHT+'\tPress Ctrl+c To Terminate The Bombing')
 	if num[0:3] == '077' or num[0:3] == '076':
@@ -788,7 +788,7 @@ elif cho == 2:
 	print(bar+'\n')
 	print(logo)
 	print(bar+'\n')
-	print(f'{Style.BRIGHT}\t\t\tAbout\n{random.choice(fore)}[+] Special Thanks To Packet Sniffing Software\n{random.choice(fore)}[+] If You Have Any Complains Or Future Requests Contact Me @ http://wa.me/16825007668\n{random.choice(fore)}[+] Never Use The Script To Cause Harm/Discomfort/Trouble To Others\n{random.choice(fore)}[!] If You Know More Websites And Apps That Use SMS Verification Please Inform Me')
+	print(f'{Style.BRIGHT}\t\t\tAbout\n{random.choice(fore)}[+] Special Thanks To Packet Sniffing Software\n{random.choice(fore)}[+] If You Have Any Complains Or Future Requests Contact Me @ https://t.me/squad_sandaru\n{random.choice(fore)}[+] Never Use The Script To Cause Harm/Discomfort/Trouble To Others\n{random.choice(fore)}[!] If You Know More Websites And Apps That Use SMS Verification Please Inform Me')
 	input(f'{Style.BRIGHT}{random.choice(fore)}\t[+] Press ENTER To Go Back To Main Menu')
 	os.system('python3 slbomber.py')
 else:
