@@ -1,9 +1,10 @@
 #Script By Sandaru Ashen https://t.me/squad_sandaru
 import os,random,time,sys
 from urllib import request
+from api import *
 os.system('clear')
 fore=['\x1b[91m','\x1b[34m','\x1b[36m','\x1b[93m','\x1b[32m','\x1b[35m','\x1b[31m','\x1b[94m','\x1b[96m','\x1b[92m','\x1b[33m','\x1b[95m']
-logo=f'{random.choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {random.choice(fore)}v.1.3\n\t\t{random.choice(fore)}[+] By Sandaru Ashen'
+logo=f'{random.choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {random.choice(fore)}v.1.4\n\t\t{random.choice(fore)}[+] By Sandaru Ashen'
 bar=f'{random.choice(fore)}\x1b[1m_________________________{random.choice(fore)}_________________________\x1b[0m'
 print(bar+'\n')
 print(logo)
@@ -177,6 +178,15 @@ if cho==1:
 																				slmat(num,delay)
 																				count+=1
 																				prsent(count,num)
+																				if count< int(times):
+																					oli(num,delay)
+																					count+=1
+																					prsent(count,num)
+																					if count< int(times):
+																						echan(num,delay)
+																						count+=1
+																						prsent(count,num)
+																					
 		else:
 			while True:
 				mega(num,delay)
@@ -228,6 +238,12 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				domin(num,delay)
+				count+=1
+				prsent(count,num)
+				echan(num,delay)
+				count+=1
+				prsent(count,num)
+				oli(num,delay)
 				count+=1
 				prsent(count,num)
 	elif num[0:3] == '071' or num[0:3] == '070':
@@ -309,6 +325,14 @@ if cho==1:
 																						mobself(num,delay)
 																						count+=1
 																						prsent(count,num)
+																						if count< int(times):
+																							oli(num,delay)
+																							count+=1
+																							prsent(count,num)
+																							if count< int(times):
+																								echan(num,delay)
+																								count+=1
+																								prsent(count,num)
 		else:
 			while True:
 				dtamart(num,delay)
@@ -366,6 +390,12 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				domin(num,delay)
+				count+=1
+				prsent(count,num)
+				echan(num,delay)
+				count+=1
+				prsent(count,num)
+				oli(num,delay)
 				count+=1
 				prsent(count,num)
 	elif num[0:3] == '078' or num[0:3] == '072':
@@ -443,6 +473,14 @@ if cho==1:
   																				slmat(num,delay)
   																				count+=1
   																				prsent(count,num)
+																				  if count< int(times):
+																					oli(num,delay)
+																					count+=1
+																					prsent(count,num)
+																					if count< int(times):
+																						echan(num,delay)
+																						count+=1
+																						prsent(count,num)
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -497,6 +535,12 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				domin(num,delay)
+				count+=1
+				prsent(count,num)
+				echan(num,delay)
+				count+=1
+				prsent(count,num)
+				oli(num,delay)
 				count+=1
 				prsent(count,num)
 	elif num[0:3] == '075':
@@ -566,6 +610,14 @@ if cho==1:
   																		slmat(num,delay)
   																		count+=1
   																		prsent(count,num)
+																		  if count< int(times):
+																			oli(num,delay)
+																			count+=1
+																			prsent(count,num)
+																			if count< int(times):
+																				echan(num,delay)
+																				count+=1
+																				prsent(count,num)
 		else:
 			while True:
 				yogo(num,delay)
@@ -614,6 +666,12 @@ if cho==1:
 				count+=1
 				prsent(count,num)
 				domin(num,delay)
+				count+=1
+				prsent(count,num)
+				echan(num,delay)
+				count+=1
+				prsent(count,num)
+				oli(num,delay)
 				count+=1
 				prsent(count,num)
 	print('\n'+bar+'\n')
