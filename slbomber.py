@@ -468,7 +468,7 @@ if cho==1:
   																				slmat(num,delay)
   																				count+=1
   																				prsent(count,num)
-																				if count<int(times):
+  																				if count<int(times):
 																					echan(num,delay)
 																					count+=1
 																					prsent(count,num)
