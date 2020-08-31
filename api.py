@@ -1,5 +1,13 @@
-from requests import post
-import time
+import time,os
+try:
+    from requests import post,get
+except ModuleNotFoundError:
+	print('\x1b[91m[!] Required Modules Aren\'t Installed!')
+	time.sleep(1)
+	print('\x1b[34m[*] Installing...')
+	os.system('pip3 install requests colorama')
+	print('\x1b[92m[+] Required Modules Installed!')
+	from requests import post,get
 def yogo(num,delay):
     url='http://app.yogotaxi.com/yogo_apps/passenger/v1/clientPinRequestData_droid.php'
     body={'countrycode':'94','mobile':num,'name':'santha','email':''}
