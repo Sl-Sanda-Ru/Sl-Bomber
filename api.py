@@ -5,7 +5,7 @@ except ModuleNotFoundError:
 	print('\x1b[91m[!] Required Modules Aren\'t Installed!')
 	time.sleep(1)
 	print('\x1b[34m[*] Installing...')
-	os.system('pip3 install requests colorama')
+	os.system('pip install requests colorama')
 	print('\x1b[92m[+] Required Modules Installed!')
 	from requests import post,get
 def yogo(num,delay):
@@ -178,3 +178,4 @@ def echan(num,delay):
     cook={'JSESSIONID':'"ZluYAaDbKmNTQRukItTWPgCxpV6LIng29fEPLH0Z.eclweb1:WEB"','visid_incap_39664':'p8PgpfbhRuaCkFBju9aA7ma+Q18AAAAAQUIPAAAAAAAUQ8+pDxLUnat9dqq+MRfa','incap_ses_710_39664':'IPXkGK219lUZsyecVm3aCWe+Q18AAAAA2SIRp1laE3ZLECaWvVXqlA','incap_ses_956_39664':'drPhUPT/tDkEIQajBmVEDe6+Q18AAAAAIMutR3cr3F7dT0ztYaSlIg','___utmvc':'hRvMVqJaHn/3b6RgYW++A5S10FijhuOaumbUsvJpJjv3+IJ3YpKZI005FrgnwjQ3ToVjGZo8d4kDOnn6myp9c0rXbpzQa8dJXdfX2b7DFK5ivOCDV5X3iZodoanVdZEXJcV91VlrPrxSm7A7PMkWa0OWD/V3qLtzg6EbjV3lM3mXCplJi1l/gENZhLCA2pwmpQ+UkHiTo4k/qt5BX699mJhUS87jUdu4QCG99QCleonCzxjhjrwZAgx8yXsD+Duhy5suipjlriL11VWaJPA2MDzgx6tdFyJhfWC14gQwxxSF94QS/oA8m80JZBzLWU6HHpYdN1Ec7vlpg4Ul7tPXCkhsGTRRRwNiBW62PEAlLcVrHtonXgvYahTF9Ij7yvqemh7zJLgwgsYM/A40y8hwFxFjA4kS9eGNEC2vwWG93FSnCILiaf0sd32oVIEiN+nIbZzIK3Y1MGtg/PlNABc2kUy8Ei7sckBttZTNif4ecyV8lSpOJCY/Y2OkKNa5MdyD6iQKDsyYnVojyQXS3pgiMHyjF2zC9ymH92Inj1Y7AQCp4EhwP9P2QHyQKs1cM/bGtdDeGUx+Yjdvi6jBfABAn919XwGg5/tnnLl2kzvyEt1m75/hN71KRblruEZLRJijcme+iP1X/0fzuJLKMQLP1pE1jg5Mwxao2hyN7qIcbxtOTc7OrmXqKYRg5J/2P/OvHLeBvCYulzRS4XbZve0d2tvB0ztV4PYMovEN9/jphssdAbSqBjpu+1vsIK1RAWo41xwzHXQy1bUqMDErkS7AGAQXgjS6WbYOCiG/YvtYXnYNNen0LEeIPF8R2T5NrRTfKW9CTfYAJBUn/zvNrUux3LJKR0/qIHzs+RSW9Ls4rriAPaMHurwGyxRWpvMRhJQ/WbZLzRgN6kT7jFy1V1MEdUcYHM8bWtntYdMdmAUGlsqLPK27+KeFJH2h+NngCsFBN9qCkkud85Uy+gi6IsEJuxuxMu+me4dcIhii/t5AAlzbs68A1AqlNZo4FTeqh1HZhg8Tr2n/4x7mq5Jtk0DQVg/+/72TTVgcR5Ec28Lf8V3r2GqmCpLO3Yusxt2lpD8BoHVTAY0HYdHfx3fykugPEgOarTOcDzFl4FcHYcustxw5iF1fHJ3X1TtbvwAD70kc6lQrz51elz2p1R/BGUQMPIB5XCcSRZgyKZDRIJafqCZMfbd1Ef2KKFv1/ksdzBStY+S0i8VZNCunFDoaRZhvsmDyywFcqg+3wvg2m48kmF62LgJYx3inQnxgGLr/kumqtOkd400RrVQgniXat4986veHStUl1cEPJqg9lK4B4ZgfFtLVnUTpkwLXc4h/zqeG9xJCXSE4Fhf7PSNkVNyIteaw8G7O5U7uXeM2K47hf64sYW3gCo+1KImRwIcYqwa7k8seYZLfMgq5lENscUd5uinHnpUz42bJALEmDqb2+LR4rMOerSsumUrsnSyeZtKa4EgfDppTrc3Ys+Kr5vM0HXSj2ncp6KlqCm+uhUA6+KpgJT2r6uiAZmI45mxI0gKsWX4tN33cviDeMsUY+IaEMpdnI5z+C5H/3riAj5WtrLUQISOtQKJMAClK5AskZEPcNP/7agqdu1l66ITGOHsvGg+7PG/J/8hmhY/FnJyi8ASaLGRpZ2VzdD0xMTQ0NTUsMTE0NTQyLHM9YWFhN2E2Nzc3ZTY0OWU2MWEyNzc4NGFjODk4Njc1ODNhOWE0YTI2M2ExNzhhMTY2NzdhMDg2N2E4Yjg5ODE5ODdiOTRhNzg1ODg3NTZmNmU'}
     head={'Host':'www.echannelling.com','Content-Type':'application/x-www-form-urlencoded'}
     po=post(url,headers=head,cookies=cook,data=body)
+
