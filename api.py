@@ -129,7 +129,7 @@ def nanasa(num,delay):
     time.sleep(delay)
 def sing(num,delay):
     url='https://apps.appmaker.lk/ideabiz/subscribePin'
-    head={'Host':'apps.appmaker.lk'}
+    head={'Host':'apps.appmaker.lk','content-type':'application/json'}
     body={'appId':'5ddd5cf840471839fef5125f','uuId':'04ff7be9ec7d63ba','msisdn': '94'+num[1:]}
     po=post(url,headers=head,json=body)
     time.sleep(delay)
