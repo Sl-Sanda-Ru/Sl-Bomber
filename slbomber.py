@@ -148,7 +148,7 @@ if cho==1:
 													count+=1
 													prsent(count,num)
 													if count<int(times):
-														flipkrt(num,delay)
+														heal(num,delay)
 														count+=1
 														prsent(count,num)
 														if count<int(times):
@@ -176,13 +176,9 @@ if cho==1:
 																				count+=1
 																				prsent(count,num)
 																				if count<int(times):
-																					echan(num,delay)
+																					oli(num,delay)
 																					count+=1
 																					prsent(count,num)
-																					if count<int(times):
-																						oli(num,delay)
-																						count+=1
-																						prsent(count,num)
 		else:
 			while True:
 				mega(num,delay)
@@ -218,7 +214,7 @@ if cho==1:
 				airbnb(num,delay)
 				count+=1
 				prsent(count,num)
-				flipkrt(num,delay)
+				heal(num,delay)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -236,12 +232,8 @@ if cho==1:
 				domin(num,delay)
 				count+=1
 				prsent(count,num)
-				echan(num,delay)
-				count+=1
-				prsent(count,num)
 				oli(num,delay)
-				count+=2
-				prsent(count,num)
+				count+=1
 	elif num[0:3] == '071' or num[0:3] == '070':
 		count=0
 		if times.isnumeric():
@@ -286,7 +278,7 @@ if cho==1:
 													count+=1
 													prsent(count,num)
 													if count<int(times):
-														flipkrt(num,delay)
+														heal(num,delay)
 														count+=1
 														prsent(count,num)
 														if count<int(times):
@@ -322,7 +314,7 @@ if cho==1:
 																						count+=1
 																						prsent(count,num)
 																						if count<int(times):
-																							echan(num,delay)
+																							moba(num,delay)
 																							count+=1
 																							prsent(count,num)
 																							if count<int(times):
@@ -367,7 +359,7 @@ if cho==1:
 				airbnb(num,delay)
 				count+=1
 				prsent(count,num)
-				flipkrt(num,delay)
+				heal(num,delay)
 				count+=1
 				prsent(count,num)
 				slmat(num,count)
@@ -388,11 +380,11 @@ if cho==1:
 				domin(num,delay)
 				count+=1
 				prsent(count,num)
-				echan(num,delay)
+				moba(num,delay)
 				count+=1
 				prsent(count,num)
 				oli(num,delay)
-				count+=2
+				count+=1
 				prsent(count,num)
 	elif num[0:3] == '078' or num[0:3] == '072':
 		count=0
@@ -442,7 +434,7 @@ if cho==1:
   													count+=1
   													prsent(count,num)
   													if count<int(times):
-  														flipkrt(num,delay)
+  														heal(num,delay)
   														count+=1
   														prsent(count,num)
   														if count<int(times):
@@ -470,13 +462,9 @@ if cho==1:
   																				count+=1
   																				prsent(count,num)
   																				if count<int(times):
-  																					echan(num,delay)
+  																					oli(num,delay)
   																					count+=1
   																					prsent(count,num)
-  																					if count<int(times):
-  																						oli(num,delay)
-  																						count+=1
-  																						prsent(count,num)
 		else:
 			while True:
 				hutcliq(num,delay)
@@ -515,7 +503,7 @@ if cho==1:
 				airbnb(num,delay)
 				count+=1
 				prsent(count,num)
-				flipkrt(num,delay)
+				heal(num,delay)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -533,11 +521,8 @@ if cho==1:
 				domin(num,delay)
 				count+=1
 				prsent(count,num)
-				echan(num,delay)
-				count+=1
-				prsent(count,num)
 				oli(num,delay)
-				count+=2
+				count+=1
 				prsent(count,num)
 	elif num[0:3] == '075':
 		count=0
@@ -579,7 +564,7 @@ if cho==1:
   											count+=1
   											prsent(count,num)
   											if count<int(times):
-  												flipkrt(num,delay)
+  												heal(num,delay)
   												count+=1
   												prsent(count,num)
   												if count<int(times):
@@ -607,13 +592,9 @@ if cho==1:
   																		count+=1
   																		prsent(count,num)
   																		if count<int(times):
-  																			echan(num,delay)
+  																			oli(num,delay)
   																			count+=1
   																			prsent(count,num)
-  																			if count<int(times):
-  																				oli(num,delay)
-  																				count+=1
-  																				prsent(count,num)
 		else:
 			while True:
 				yogo(num,delay)
@@ -643,7 +624,7 @@ if cho==1:
 				ona(num,delay)
 				count+=1
 				prsent(count,num)
-				flipkrt(num,delay)
+				heal(num,delay)
 				count+=1
 				prsent(count,num)
 				savari(num,delay)
@@ -664,11 +645,8 @@ if cho==1:
 				domin(num,delay)
 				count+=1
 				prsent(count,num)
-				echan(num,delay)
-				count+=1
-				prsent(count,num)
 				oli(num,delay)
-				count+=2
+				count+=1
 				prsent(count,num)
 	print('\n'+bar+'\n')
 	time.sleep(0.90)
