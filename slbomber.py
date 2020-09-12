@@ -1,6 +1,5 @@
 #Script By Sandaru Ashen https://t.me/Sl_Sanda_Ru
 import os,random,sys,time
-from urllib import request
 from api import *
 cle = 'clear' if os.name == 'posix' else 'cls'
 from colorama import Fore,init,Style
@@ -11,7 +10,7 @@ logo=f'{random.choice(fore)}\x1b[1m\t\t   _________.__\n                  /   __
 bar=f'{random.choice(fore)}\x1b[1m_________________________{random.choice(fore)}_________________________\x1b[0m'
 with open('.ascii','r') as f:
 	loli=f.read().split('c')
-if random.choices(list((True,False)),weights=(10,90))[0]:
+if random.choices(list((True,False)),weights=(25,75))[0]:
 	fore.append('\x1b[90m')
 	print(bar+'\n')
 	co=random.choices(fore,weights=list((4,4,4,4,4,4,4,4,4,4,4,4,88)))[0]
@@ -51,14 +50,14 @@ if cho==1:
 	print(bar+'\n')
 	try:
 		Spinner()
-		request.urlopen('https://httpbin.org/get')
+		get('https://httpbin.org/get')
 		print(Fore.LIGHTGREEN_EX+Style.BRIGHT+'\n[+] Connection Successful!')
 		time.sleep(1.5)
 		os.system(cle)
 		print(bar+'\n')
 		print(logo)
 		print(bar+'\n')
-	except:
+	except Exception:
 		time.sleep(0.4)
 		print(Fore.LIGHTRED_EX+Style.BRIGHT+'\n[!] You Aren\'t Connected To Internet!')
 		time.sleep(0.3)
