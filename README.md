@@ -16,6 +16,7 @@
 Termux App For Android
 Windows
 Linux Distros
+<br>
 **Supported OS:**
 Windows
 Linux Distros
