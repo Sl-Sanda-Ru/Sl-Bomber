@@ -14,12 +14,11 @@
 ## OS Support
 **Tested OS:**
 Termux App For Android
-Windows
+Windows,
 Linux Distros
 <br>
 **Supported OS:**
-Windows
-Linux Distros
+Any Os That Can Run Python3
 
 ## Usage:
 
@@ -38,4 +37,4 @@ cd Sl-Bomber
 pip3 install -r requirements.txt
 python3 slbomber.py
 ```
-**If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me @ https://t.me/Sl_Sanda_Ru**
+**If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me https://t.me/Sl_Sanda_Ru**
