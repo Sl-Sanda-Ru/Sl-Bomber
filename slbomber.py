@@ -2,7 +2,10 @@
 import os,random,sys,time
 from api import *
 cle = 'clear' if os.name == 'posix' else 'cls'
-from colorama import Fore,init,Style
+try:
+	from colorama import Fore,init,Style
+except ModuleNotFoundError:
+	os.system('pip3 install colorama')
 init(autoreset=True)
 os.system(cle)
 fore=['\x1b[91m','\x1b[34m','\x1b[36m','\x1b[93m','\x1b[32m','\x1b[35m','\x1b[31m','\x1b[94m','\x1b[96m','\x1b[92m','\x1b[33m','\x1b[95m']
@@ -663,6 +666,6 @@ elif cho == 2:
 	print(bar+'\n')
 	print(f'{Style.BRIGHT}\t\t\tAbout\n{random.choice(fore)}[+] Special Thanks To Packet Sniffing Software\n{random.choice(fore)}[+] If You Have Any Complains Or Future Requests Contact Me @ https://t.me/Sl_Sanda_Ru\n{random.choice(fore)}[+] Never Use The Script To Cause Harm/Discomfort/Trouble To Others\n{random.choice(fore)}[!] If You Know More Websites And Apps That Use SMS Verification Please Inform Me')
 	input(f'{Style.BRIGHT}{random.choice(fore)}\t[+] Press ENTER To Go Back To Main Menu')
-	os.system('python slbomber.py')
+	os.system('python3 slbomber.py')
 else:
 	exit()
