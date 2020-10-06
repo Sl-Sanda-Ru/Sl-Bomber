@@ -1,5 +1,6 @@
 #Script By Sandaru Ashen https://t.me/Sl_Sanda_Ru
 from os import name,system
+system('git pull')
 from time import sleep
 from sys import stdout
 from random import randrange,choice,choices
