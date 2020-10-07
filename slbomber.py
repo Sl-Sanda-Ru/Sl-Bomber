@@ -50,19 +50,19 @@ def prsent(count,num):
 def Spinner():
 	l=['|','/','-','\\']
 	for i in l+l+l:
-		stdout.write('\r'+bold+Fore.LIGHTYELLOW_EX+'[*] Checking Your Internet Connection  '+i)
+		stdout.write('\r'+bold+liyel+'[*] Checking Your Internet Connection  '+i)
 		stdout.flush()
 		sleep(0.2)
 sleep(0.3)
 while True:
 	try:
-		cho=int(input(Fore.LIGHTCYAN_EX+bold+'Enter Your Choice: '))
+		cho=int(input(cya+bold+'Enter Your Choice: '))
 		if cho > 0 and cho <4:
 			break
 		else:
-			Print(Fore.LIGHTRED_EX+bold+'[!] Please Enter A Correct Choice!')
+			Print(lired+bold+'[!] Please Enter A Correct Choice!')
 	except:
-			print(Fore.LIGHTRED_EX+bold+'[!] Incorrect Choice')
+			print(lired+bold+'[!] Incorrect Choice')
 if cho==1:
 	sleep(0.4)
 	system(cle)
@@ -72,7 +72,7 @@ if cho==1:
 	try:
 		Spinner()
 		get('https://a9c3af23099293570b4ae5a5c60e0762.m.pipedream.net')
-		print(Fore.LIGHTGREEN_EX+bold+'\n[+] Connection Successful!')
+		print(ligre+bold+'\n[+] Connection Successful!')
 		sleep(1.5)
 		system(cle)
 		print(bar+'\n')
@@ -80,11 +80,11 @@ if cho==1:
 		print(bar+'\n')
 	except Exception:
 		sleep(0.4)
-		print(Fore.LIGHTRED_EX+bold+'\n[!] You Aren\'t Connected To Internet!')
+		print(lired+bold+'\n[!] You Aren\'t Connected To Internet!')
 		sleep(0.3)
-		print(Fore.LIGHTRED_EX+bold+'[!] Please Connect To Internet To Continue...')
+		print(lired+bold+'[!] Please Connect To Internet To Continue...')
 		sleep(0.3)
-		input(Fore.LIGHTRED_EX+bold+'[!] Exiting...\nPress Enter To Continue...')
+		input(lired+bold+'[!] Exiting...\nPress Enter To Continue...')
 		exit()
 	while True:
 		try:
@@ -93,26 +93,26 @@ if cho==1:
 			if len(num) == 10 and str(num)[0:3] in ('070','071','072','075','076','077','078'):
 				break
 			else:
-				print(Fore.LIGHTRED_EX + 'Please Enter A Correct Number!')
+				print(lired + 'Please Enter A Correct Number!')
 				continue
 		except ValueError:
-			print(Fore.LIGHTRED_EX + 'Please Enter A Phone Number Not Letters!')
+			print(lired + 'Please Enter A Phone Number Not Letters!')
 			continue
 	sleep(0.4)
 	while True:
-		times=input(bold+Fore.LIGHTYELLOW_EX+'How Many Messages (U) To Unlimited:')
+		times=input(bold+liyel+'How Many Messages (U) To Unlimited:')
 		if times.isnumeric() or times == 'U' or	times == 'u':
 			break
 		else:
-			print(bold+Fore.LIGHTRED_EX+'[!] Enter A Correct Amount Or \'U\' For Unlimited')
+			print(bold+lired+'[!] Enter A Correct Amount Or \'U\' For Unlimited')
 	sleep(0.4)
 	while True:
-		delay=input(bold+Fore.LIGHTMAGENTA_EX+'Enter Delay Time (In Seconds)\n\t\t[Recomended 5]:')
+		delay=input(bold+limag+'Enter Delay Time (In Seconds)\n\t\t[Recomended 5]:')
 		if delay.isnumeric() and int(delay) > 0:
 			delay=float(delay)
 			break
 		elif delay=='0':
-			print(bold+Fore.LIGHTRED_EX+'[!] Value Must Be More Than 0')
+			print(bold+lired+'[!] Value Must Be More Than 0')
 		else:
 			delay=5.0
 			break
@@ -123,7 +123,7 @@ if cho==1:
 	sleep(0.5)
 	print(f'\t{bold}Use This For Fun, Not For Revenge !!\n\t     https://t.me/Sl_Sanda_Ru')
 	print(bar+'\n')
-	print(Fore.YELLOW+bold+'\tPress Ctrl+c To Terminate The Bombing')
+	print(yel+bold+'\tPress Ctrl+c To Terminate The Bombing')
 	if num[0:3] == '077' or num[0:3] == '076':
 		count=0
 		if times.isnumeric():
@@ -670,7 +670,7 @@ if cho==1:
 				prsent(count,num)
 	print('\n'+bar+'\n')
 	sleep(0.9)
-	print(f'{bold}{Fore.LIGHTGREEN_EX}\t[+] Bombing Successful')
+	print(f'{bold}{ligre}\t[+] Bombing Successful')
 	sleep(0.7)
 	ag=input(f'\t{bold}{choice(fore)}[?] Run The Bomber Again?(y/n) ')
 	if ag == 'Y' or ag == 'y':
