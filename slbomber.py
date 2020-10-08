@@ -27,7 +27,7 @@ licya=Fore.LIGHTCYAN_EX
 ligre=Fore.LIGHTGREEN_EX
 bold='\x1b[1m'
 fore=list((blu,cya,gre,yel,red,mag,liyel,lired,limag,liblu,licya,ligre))
-logo=f'{choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {choice(fore)}v.1.5\n\t\t{choice(fore)}[+] By Sandaru Ashen'
+logo=f'{choice(fore)}\x1b[1m\t\t   _________.__\n                  /   _____/|  |\n                  \\_____  \\ |  |\n                  /        \\|  |__\n                 /_______  /|____/\n   __________            \\/___.\n   \\______   \\ ____   _____\\_ |__   ___________\n    |    |  _//  _ \\ /     \\| __ \\_/ __ \\_  __ \\\n    |    |   (  <_> )  Y Y  \\ \\_\\ \\  ___/|  | \\/\n    |______  /\\____/|__|_|  /___  /\\___  >__|\n           \\/             \\/    \\/     \\/ {choice(fore)}v.1.5\n\t\t{choice(fore)}[+] By Sandaviru Bro'
 bar=f'{choice(fore)}\x1b[1m_________________________{choice(fore)}_________________________\x1b[0m'
 with open('.ascii','r') as f:
 	loli=f.read().split('c')
