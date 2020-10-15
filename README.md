@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS bomber For Sri Lankan Numbers.</p><br>
+<p align="center">Caller,SMS bomber For Sri Lankan Numbers.</p><br>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
@@ -8,7 +8,7 @@
 - Make Sure You Are Using Python3.
 - Do Not Use This To Harm Others.
 - This Script Is Only For Educational Purposes or to prank.
-- **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
+- **Developer Is Not Responsible For The Misuse Of Sl-Bomber.**
 <br>
 
 ## OS Support
