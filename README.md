@@ -7,7 +7,7 @@
 - No Balance Will Be Deducted For Using This Script To Send SMS.
 - Make Sure You Are Using Python3.
 - Do Not Use This To Harm Others.
-- This Script Is Only For Educational Purposes or to prank.
+- This Script Is Only For Educational Purposes or to Prank.
 - **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
 <br>
 
@@ -32,7 +32,7 @@ To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
 apt install git python -y
-git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
+git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 pip3 install -r requirements.txt
 python3 slbomber.py
