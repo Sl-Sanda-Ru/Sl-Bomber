@@ -18,7 +18,7 @@ Windows,
 Linux Distros
 <br>
 **Supported OS:**
-Any Os That Can Run Python3
+Any Os That Can Run Python3.9
 
 ## Usage:
 
