@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS bomber For Sri Lankan Numbers.</p><br>
+<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p><br>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
@@ -31,7 +31,7 @@ Run These Commands To Run Sl Bomber
 To Use The Bomber Type The Following Commands In Termux:
 ```
 apt update && apt upgrade -y
-apt install git python3 -y
+apt install git python -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 pip3 install -r requirements.txt
