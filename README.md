@@ -1,6 +1,6 @@
 <h1 align="center">Sl Bomber</h1>
 <p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p>
-<h2 align="center">This Repository Is No Longer Maintained Because Sri Lankan මෝඩ යක්කු Use This As පිස්සු පිහාට්ටො</h2><br>
+<h2 align="center">This Repository Is No Longer Maintained Because Of Sri Lankan Gon People</h2><br>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
