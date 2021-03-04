@@ -1,6 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p>
-<h2 align="center">This Repository Is No Longer Maintained Because Of Sri Lankan Gon People</h2><br>
+<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p><br>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
@@ -19,7 +18,7 @@ Windows,
 Linux Distros
 <br>
 **Supported OS:**
-Any Os That Can Run Python3.9
+Any Os That Can Run Python3
 
 ## Usage:
 
