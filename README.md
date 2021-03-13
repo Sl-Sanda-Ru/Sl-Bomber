@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p><br>
+<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
@@ -18,7 +18,7 @@ Windows,
 Linux Distros
 <br>
 **Supported OS:**
-Any Os That Can Run Python3
+Any Os That Can Run Python3.9
 
 ## Usage:
 
@@ -35,6 +35,19 @@ apt install git python -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 pip3 install -r requirements.txt
+python3 slbomber.py
+```
+### > For Ubuntu:
+
+**Notice:** 
+
+To Use The Bomber Type The Following Commands In Your Linux Shell:
+```
+sudo apt update
+sudo apt install git python3 python3-pip -y
+git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
+cd Sl-Bomber
+sudo pip3 install -r requirements.txt
 python3 slbomber.py
 ```
 **If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me https://t.me/Sl_Sanda_Ru**
