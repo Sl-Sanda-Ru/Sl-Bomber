@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p>
+<p align="center">SMS Bomber, Caller & Custom SMS Sender For Sri Lankan Numbers.</p>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
