@@ -1,5 +1,5 @@
 <h1 align="center">Sl Bomber</h1>
-<p align="center">SMS Bomber, Caller & Custom SMS Sender For Sri Lankan Numbers.</p>
+<p align="center">SMS Bomber & Caller For Sri Lankan Numbers.</p>
 
 ## Note:
 - **The Bomber Only Works For Sri Lankan Numbers**
@@ -9,7 +9,6 @@
 - Do Not Use This To Harm Others.
 - This Script Is Only For Educational Purposes or to Prank.
 - **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
-- Developer Is Collecting Your Data For See The Script Usage
 <br>
 
 ## OS Support
