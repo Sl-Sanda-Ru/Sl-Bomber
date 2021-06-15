@@ -9,6 +9,7 @@
 - Do Not Use This To Harm Others.
 - This Script Is Only For Educational Purposes or to Prank.
 - **Developer Is Not Responsible For The Misuse Of Sl-Bomber**
+- **Your Usage Data Will Be Collected For Statistic Purposes**
 <br>
 
 ## OS Support
