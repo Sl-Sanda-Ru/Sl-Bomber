@@ -51,4 +51,4 @@ cd Sl-Bomber
 sudo pip3 install -r requirements.txt
 python3 bomber.py
 ```
-**If You Know More Websites And Apps That Use Global Or Local SMS Verification Please Inform Me https://t.me/Sl_Sanda_Ru**
+**If You Know More Websites And Apps That Use Local SMS Verification Please Inform Me https://t.me/Sl_Sanda_Ru**
