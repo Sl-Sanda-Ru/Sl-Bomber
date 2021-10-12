@@ -42,6 +42,7 @@ pip3 install -r requirements.txt
 If You Are Using python3.8 Run The Program By ```python3.8 bomber38.py``` <br>
 Elif You Are Using python3.9 Run The Program By ```python3.9 bomber39.py``` <br>
 Elif You Are Using python3.10 Run The Program By ```python3.10 bomber31.py``` <br>
+**To Check Your Python Version Use ```python -V``` Command**
 ### > For Ubuntu:
 
 **Notice:** 
