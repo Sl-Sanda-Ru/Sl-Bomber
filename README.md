@@ -38,11 +38,8 @@ apt install git python -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 pip3 install -r requirements.txt
+python3 bomber.py
 ```
-If You Are Using python3.8 Run The Program By ```python3.8 bomber38.py``` <br>
-Elif You Are Using python3.9 Run The Program By ```python3.9 bomber39.py``` <br>
-Elif You Are Using python3.10 Run The Program By ```python3.10 bomber31.py``` <br>
-**To Check Your Python Version Use ```python -V``` Command**
 ### > For Ubuntu:
 
 **Notice:** 
@@ -54,5 +51,6 @@ sudo apt install git python3 python3-pip -y
 git clone https://github.com/Sl-Sanda-Ru/Sl-Bomber.git
 cd Sl-Bomber
 sudo pip3 install -r requirements.txt
+python3 bomber.py
 ```
 **If You Know More Websites And Apps That Use Local SMS Verification Please Inform Me https://t.me/Sl_Sanda_Ru**
